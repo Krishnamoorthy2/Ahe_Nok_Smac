@@ -1,0 +1,789 @@
+ {
+    "version": "V2.0.14",
+    "client_id": "1",
+    "station_msg": " Station 4 Complete ",
+    "station_msg_pos": [
+        400,
+        100
+    ],
+    "3d_model": [
+        {
+            "name": "Chassis_4",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.4,
+                "sy": 0.4,
+                "sz": 0.4,
+                "rx": -90,
+                "ry": 0,
+                "rz": 90
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "FilterChassis",
+            "init_size": {
+                "x": 0,
+                "y": 1,
+                "z": 19,
+                "sx": 0.4,
+                "sy": 0.4,
+                "sz": 0.4,
+                "rx": -90,
+                "ry": 0,
+                "rz": 180
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "Screw",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.14,
+                "sy": 0.14,
+                "sz": 0.14,
+                "rx": -90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "Mating_Template",
+            "init_size": {
+                "x": 0,
+                "y": 1,
+                "z": 19,
+                "sx": 0.4,
+                "sy": 0.4,
+                "sz": 0.4,
+                "rx": -90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        }
+    ],
+    "steps": [
+        {
+            "id":40101,
+            "three_d": "FilterChassis",
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Place the filter Chassis",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "S3_S4",
+            "val_order_name":"validate FC_chassis",
+            "val_main": "run",
+            "val_result": "filterchassis",
+            "val_thr": 500,
+            "val_dur": 10,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":2,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Assemble the Filter Chassis Screws (6153320)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"Assemble FC_screw",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 10,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40201,
+            "three_d": "Mating_Template",
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Place the Mating Screw Template (P354904)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Mating_template",
+            "val_order_name":"Mating_Template",
+            "val_main": "run",
+            "val_result": "matingtemplate",
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40202,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -227,
+                -394
+            ],
+            "msg": "Place all 21 Filter Chassis Screws",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"FC_screw",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":3,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the Filter Chassis Screws (6153320)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"Tighten FC_screw",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40301,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 1st screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw1",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40302,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 2nd screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw2",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40303,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 3rd screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw3",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40304,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 4th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw4",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40305,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 5th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw5",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40306,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 6th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw6",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40307,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 7th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw7",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40308,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 8th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw8",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40309,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 9th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw9",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40310,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 10th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw10",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40311,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 11th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw11",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40312,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 12th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw12",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40313,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 13th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw13",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40314,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 14th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw14",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40315,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 15th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw15",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40316,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 16th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw16",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40317,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 17th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw17",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40318,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 18th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw18",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40319,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 19th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw19",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40320,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 20th screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw20",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":40321,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Tighten the 21st screw ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"FC_screw21",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":4,
+            "three_d": "Mating_Template",
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Remove the Mating Screw Template (P354904)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Remove_Mating_template",
+            "val_order_name":"Template",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        }
+        
+    ]
+}
+        

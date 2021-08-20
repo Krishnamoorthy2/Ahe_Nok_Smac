@@ -1,0 +1,675 @@
+{
+    "version": "V2.0.14",
+    "client_id": "1",
+    "station_msg": " Station 2 Complete ",
+    "station_msg_pos": [
+        400,
+        100
+    ],
+    "3d_model": [
+        {
+            "name": "Chassis_2",
+            "init_size": {
+                "x": 0,
+                "y": 1,
+                "z": 19,
+                "sx": 0.4,
+                "sy": 0.4,
+                "sz": 0.4,
+                "rx": -90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_light",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "Gasket",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.18,
+                "sy": 0.18,
+                "sz": 0.18,
+                "rx": 90,
+                "ry": -90,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "Adapter",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.05,
+                "sy": 0.05,
+                "sz": 0.05,
+                "rx": 180,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "FilterTower",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.2,
+                "sy": 0.2,
+                "sz": 0.2,
+                "rx": 90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "Washer",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.1,
+                "sy": 0.1,
+                "sz": 0.1,
+                "rx": 90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "HeatSpreader",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.1,
+                "sy": 0.1,
+                "sz": 0.1,
+                "rx": 90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        }
+    ],
+    "steps": [
+        {
+            "id":2,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Assemble the Gasket",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"gasket_text",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 20,
+            "ctr_pos": [
+                228,265
+            ],
+            "patch": [
+                20,195
+            ],
+            "mask": null
+        },
+        {
+            "id": 20201,
+            "three_d": "Gasket",
+            "ctr_pos_3D": [
+                375,
+                264
+            ],
+            "msg": "Place the 1st Gasket",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Gasket_ML",
+            "val_order_name":"gasket1",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                371,267
+            ],
+            "patch": [
+                20,50
+            ],
+            "mask": null
+        },
+        {
+            "id": 20202,
+            "three_d": "Gasket",
+            "ctr_pos_3D": [
+                279,
+                264
+            ],
+            "msg": "Place the 2nd Gasket",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Gasket_ML",
+            "val_order_name":"gasket2",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                275,267
+            ],
+            "patch": [
+                20,50
+            ],
+            "mask": null
+        },
+        {
+            "id": 20203,
+            "three_d": "Gasket",
+            "ctr_pos_3D": [
+                183,
+                264
+            ],
+            "msg": "Place the 3rd Gasket",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Gasket_ML",
+            "val_order_name":"gasket3",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                180,267
+            ],
+            "patch": [
+                20,50
+            ],
+            "mask": null
+        },
+        {
+            "id": 20204,
+            "three_d": "Gasket",
+            "ctr_pos_3D": [
+                84,
+                264
+            ],
+            "msg": "Place the 4th Gasket",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Gasket_ML",
+            "val_order_name":"gasket4",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                88,267
+            ],
+            "patch": [
+                20,50
+            ],
+            "mask": null
+        },
+        {
+            "id": 3,
+            "three_d": null,
+            "ctr_pos_3D": [
+                305,
+                635
+            ],
+            "msg": "Assemble the Adapter",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"adapter_text",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 3000,
+            "val_dur": 15,
+            "ctr_pos": [
+                257,164
+            ],
+            "patch": [
+                112,170
+            ],
+            "mask": null
+        },
+        {
+            "id": 20301,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                397,
+                259
+            ],
+            "msg": "Place the Adapter_up1",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Adapter_ML",
+            "val_order_name":"adapter1",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                397,
+                264
+            ],
+            "patch": [
+                20,20
+            ],
+            "mask": null
+        },
+        {
+            "id": 20302,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                302,
+                259
+            ],
+            "msg": "Place the Adapter_Upper_low2",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Adapter_ML",
+            "val_order_name":"adapter2",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                301,
+                265
+            ],
+            "patch": [
+                20,20
+            ],
+            "mask": null
+        },
+        {
+            "id": 20303,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                203,259
+            ],
+            "msg": "Place the Adapter_ML_low3",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Adapter_ML",
+            "val_order_name":"adapter3",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                207,265
+            ],
+            "patch": [
+                20,20
+            ],
+            "mask": null
+        },
+        {
+            "id": 20304,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                110,259
+            ],
+            "msg": "Place the Adapter_ML_low4",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Adapter_ML",
+            "val_order_name":"adapter4",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                113,265
+            ],
+            "patch": [
+                20,20
+            ],
+            "mask": null
+        },
+        {
+            "id": 20305,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                116,
+                70
+            ],
+            "msg": "Place the Adapter_Lower_low1",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Adapter_ML",
+            "val_order_name":"adapter5",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                116,
+                65
+            ],
+            "patch": [
+                23,26
+            ],
+            "mask": null
+        },
+        {
+            "id": 20306,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                210,
+                70
+            ],
+            "msg": "Place the Adapter_ML_low2",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Adapter_ML",
+            "val_order_name":"adapter6",
+            "val_main": "run",
+            "val_result":  true,
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                214,
+                65
+            ],
+            "patch": [
+                23,26
+            ],
+            "mask": null
+        },
+        {
+            "id": 20307,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                309,
+                70
+            ],
+            "msg": "Place the Adapter_ML_low3",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Adapter_ML",
+            "val_order_name":"adapter7",
+            "val_main": "run",
+            "val_result":  true,
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                311,
+                65
+            ],
+            "patch": [
+                23,26
+            ],
+            "mask": null
+        },
+        {
+            "id": 20308,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                405,
+                70
+            ],
+            "msg": "Place the Adapter_ML_low4",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Adapter_ML",
+            "val_order_name":"adapter8",
+            "val_main": "run",
+            "val_result":  true,
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                404,
+                65
+            ],
+            "patch": [
+                23,26
+            ],
+            "mask": null
+        },
+        {
+            "id": 4,
+            "three_d": null,
+            "ctr_pos_3D": [
+                113,
+                30
+            ],
+            "msg": "Assemble the  FilterTower",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"filtertower_text",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 20,
+            "ctr_pos": [
+                257,68
+            ],
+            "patch": [
+                17,172
+            ],
+            "mask": null
+        },
+        {
+            "id": 20401,
+            "three_d": "FilterTower",
+            "ctr_pos_3D": [
+                116,
+                70
+            ],
+            "msg": "Place the 1st FilterTower",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "FilterTower",
+            "val_order_name":"filtertower1",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                116,
+                65
+            ],
+            "patch": [
+                23,26
+            ],
+            "mask": null
+        },
+        {
+            "id": 20402,
+            "three_d": "FilterTower",
+            "ctr_pos_3D": [
+                210,
+                70
+            ],
+            "msg": "Place the 2nd FilterTower",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "FilterTower",
+            "val_order_name":"filtertower2",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                214,
+                64
+            ],
+            "patch": [
+                23,26
+            ],
+            "mask": null
+        },
+        {
+            "id": 20403,
+            "three_d": "FilterTower",
+            "ctr_pos_3D": [
+                309,
+                70
+            ],
+            "msg": "Place the 3rd FilterTower",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "FilterTower",
+            "val_order_name":"filtertower3",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                311,
+                63
+            ],
+            "patch": [
+                23,26
+            ],
+            "mask": null
+        },
+        {
+            "id": 20404,
+            "three_d": "FilterTower",
+            "ctr_pos_3D": [
+                404,
+                69
+            ],
+            "msg": "Place the 4th FilterTower",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "FilterTower",
+            "val_order_name":"filtertower4",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                403,
+                60
+            ],
+            "patch": [
+                23,26
+            ],
+            "mask": null
+        },
+        { 
+            "id": 5,
+            "three_d": "Washer",
+            "ctr_pos_3D": [
+                319,
+                530
+            ],
+            "msg": "Place the Washer",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Washer_ML",
+            "val_order_name":"washer",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                326,521
+            ],
+            "patch": [
+                33,35
+            ],
+            "mask": null
+        },
+        {
+            "id": 6,
+            "three_d": "HeatSpreader",
+            "ctr_pos_3D": [
+                319,
+                530
+            ],
+            "msg": "Place the Heat Spreader (833084A)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "HS_ML",
+            "val_order_name":"heatspreader",
+            "val_main": "run",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                326,521
+            ],
+            "patch": [
+                33,35
+            ],
+            "mask": null
+        }
+    ]
+}

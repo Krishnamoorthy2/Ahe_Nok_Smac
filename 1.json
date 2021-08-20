@@ -1,0 +1,1627 @@
+{
+    "version": "V2.0.14",
+    "client_id": "1",
+    "station_msg": " Station 1 Complete ",
+    "station_msg_pos": [
+        400,
+        100
+    ],
+    "3d_model": [
+        {
+            "name": "Chassis_1",
+            "init_size": { 
+                "x": 0,
+                "y": 1,
+                "z": 19,
+                "sx": 0.4,
+                "sy": 0.4,
+                "sz": 0.4,
+                "rx": -90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "C1_rotate",
+            "init_size": {
+                "x": 0,
+                "y": 1,
+                "z": 19,
+                "sx": 0.4,
+                "sy": 0.4,
+                "sz": 0.4,
+                "rx": -90,
+                "ry": 0,
+                "rz": 180
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "DC",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.11,
+                "sy": 0.11,
+                "sz": 0.11,
+                "rx": 0,
+                "ry": 90,
+                "rz": -90
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "RET_cable",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.25,
+                "sy": 0.25,
+                "sz": 0.25,
+                "rx": -90,
+                "ry": 90,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "GraphiteSheet",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.12,
+                "sy": 0.12,
+                "sz": 0.12,
+                "rx": 90,
+                "ry": 180,
+                "rz": 90
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "PA_53",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.10,
+                "sy": 0.10,
+                "sz": 0.10,
+                "rx": -90,
+                "ry": 90,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "PA_54",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.10,
+                "sy": 0.10,
+                "sz": 0.10,
+                "rx": -90,
+                "ry": 90,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "TC",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 2.6,
+                "sy": 2.6,
+                "sz": 2.6,
+                "rx": 0,
+                "ry": 0,
+                "rz": -90
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": true
+        },
+        {
+            "name": "Screw",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.12,
+                "sy": 0.12,
+                "sz": 0.12,
+                "rx": -90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        }
+    ],
+    "steps": [
+        {
+            "id": 10101,
+            "three_d": null,
+            "msg": "Stick the Barcode Label (7317552)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_barcode",
+            "val_order_name": "textbarcode1",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                444,718
+            ],
+            "patch": [
+               27,10
+            ],
+            "ctr_pos_3D": [
+                50,
+                50
+            ],
+            "mask": null
+        },
+        {
+            "id": 10102,
+            "three_d": null,
+            "msg": "Scan the Barcode Label",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_barcode",
+            "val_order_name": "textbarcode2",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                444,718
+            ],
+            "patch": [
+                27,10
+            ],
+            "ctr_pos_3D": [
+                50,
+                50
+            ],
+            "mask": null
+        },
+        {
+            "id": 2,
+            "three_d": null,
+            "ctr_pos_3D": [
+                390,
+                722
+            ],
+            "msg": "Assemble the DC Connector",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name": "dc_text",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 3000,
+            "val_dur": 10,
+            "ctr_pos": [
+                389,727
+            ],
+            "patch": [
+               39,41
+            ],
+            "mask": null
+        },
+        {
+            "id": 10201,
+            "three_d": "DC",
+            "ctr_pos_3D": [
+                390,
+                722
+            ],
+            "msg": "Place the DC Connector (996227A) ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "dc_ret_ml",
+            "val_order_name": "dc",
+            "val_main": "run",
+            "val_result": "dc",
+            "val_thr": 1000,
+            "val_dur": 5,
+            "ctr_pos": [
+                389,727
+            ],
+            "patch": [
+                39,41
+            ],
+            "mask": null
+        },
+        {
+            "id": 10202,
+            "three_d": null,
+            "msg": "Tighten the screw in the top left",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name": "dc_screw1",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                380,762
+            ],
+            "patch": [
+                26,24
+            ],
+            "ctr_pos_3D": [
+                50,
+                50
+            ],
+            "mask": null
+        },
+        {
+            "id": 10203,
+            "three_d": null,
+            "msg": "Tighten the screw in the bottom right",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name": "dc_screw2",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                380,762
+            ],
+            "patch": [
+                26,24
+            ],
+            "ctr_pos_3D": [
+                50,
+                50
+            ],
+            "mask": null
+        },
+        {
+            "id": 10204,
+            "three_d": null,
+            "msg": "Tighten the screw in the bottom left",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name": "dc_screw3",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                380,762
+            ],
+            "patch": [
+                26,24
+            ],
+            "ctr_pos_3D": [
+                50,
+                50
+            ],
+            "mask": null
+        },
+        {
+            "id": 10205,
+            "three_d": null,
+            "msg": "Tighten the screw in the top right",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name": "dc_screw4",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                380,762
+            ],
+            "patch": [
+                26,24
+            ],
+            "ctr_pos_3D": [
+                50,
+                50
+            ],
+            "mask": null
+        },
+        {
+            "id": 3,
+            "three_d": null,
+            "msg": "Assemble the RET cable ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name": "ret_text",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                 164,
+                730
+            ],
+            "patch": [
+                52,40
+            ],
+            "ctr_pos_3D": [
+                165,
+                721
+            ],
+            "mask": null
+        },
+        {
+            "id": 10301,
+            "three_d": "RET_cable",
+            "msg": "Place the RET cable ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "dc_ret_ml",
+            "val_order_name": "ret",
+            "val_main": "run",
+            "val_result": "ret",
+            "val_thr": 500,
+            "val_dur": 5,
+            "ctr_pos": [
+                  165,
+                721
+            ],
+            "patch": [
+                52,40
+            ],
+            "ctr_pos_3D": [
+                166,
+                710
+            ],
+            "mask": null
+        },
+        {
+            "id": 10302,
+            "three_d": null,
+            "msg": "Tighten the screw in the top left",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name": "ret_screw1",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                169,762
+            ],
+            "patch": [
+               25,22
+            ],
+            "ctr_pos_3D": [
+                169,762
+            ],
+            "mask": null
+        },
+        {
+            "id": 10303,
+            "three_d": null,
+            "msg": "Tighten the screw in the bottom right",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name": "ret_screw2",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                169,762
+            ],
+            "patch": [
+               25,22
+            ],
+            "ctr_pos_3D": [
+                169,762
+            ],
+            "mask": null
+        },
+        {
+            "id": 10304,
+            "three_d": null,
+            "msg": "Tighten the screw in the bottom left",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name": "ret_screw3",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                169,762
+            ],
+            "patch": [
+               25,22
+            ],
+            "ctr_pos_3D": [
+                169,762
+            ],
+            "mask": null
+        },
+        {
+            "id": 10305,
+            "three_d": null,
+            "msg": "Tighten the screw in the top right",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name": "ret_screw4",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                169,762
+            ],
+            "patch": [
+               25,22
+            ],
+            "ctr_pos_3D": [
+                169,762
+            ],
+            "mask": null
+        },
+        {
+            "id": 4,
+            "three_d": "C1_rotate",
+            "msg": "Rotate chassis",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "3DText",
+            "val_order_name": "Rotate",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+               394,227
+            ],
+            "ctr_pos_3D": [
+                227,500
+            ],
+            "mask": null
+        },
+        {
+            "id": 5,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -125,
+                50
+            ],
+            "msg": "Assemble the PA Thermal Graphites ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name": "gs_text",
+            "val_main": "main",
+            "val_result": "nogs",
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                229,166
+            ],
+            "patch": [
+                136,197
+            ],
+            "mask": null
+        },
+        {
+            "id": 10501,
+            "three_d": "GraphiteSheet",
+            "ctr_pos_3D": [
+                371,
+                172
+            ],
+            "msg": "Place the Graphite Sheet 1",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "MlStage1",
+            "val_order_name": "gs1",
+            "val_main": "run",
+            "val_result": "gs",
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                368,166
+            ],
+            "patch": [
+                139,51
+            ],
+            "mask": null
+        },
+        {
+            "id": 10502,
+            "three_d": "GraphiteSheet",
+            "ctr_pos_3D": [
+                274,
+                172
+            ],
+            "msg": "Place the Graphite Sheet 2",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "MlStage1",
+            "val_order_name": "gs2",
+            "val_main": "run",
+            "val_result": "gs",
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                271,166
+            ],
+            "patch": [
+                137,49
+            ],
+            "mask": null
+        },
+        {
+            "id": 10503,
+            "three_d": "GraphiteSheet",
+            "ctr_pos_3D": [
+                178,
+                172
+            ],
+            "msg": "Place the Graphite Sheet 3",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "MlStage1",
+            "val_order_name": "gs3",
+            "val_main": "run",
+            "val_result": "gs",
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                176,167
+            ],
+            "patch": [
+                136,49
+            ],
+            "mask": null
+        },
+        {
+            "id": 10504,
+            "three_d": "GraphiteSheet",
+            "ctr_pos_3D": [
+                80,
+                172
+            ],
+            "msg": "Place the Graphite Sheet 4",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "MlStage1",
+            "val_order_name": "gs4",
+            "val_main": "run",
+            "val_result": "gs",
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                81,169
+            ],
+            "patch": [
+                136,50
+            ],
+            "mask": null
+        },
+        {
+            "id": 6,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -125,
+                50
+            ],
+            "msg": "Assemble the Power Amplifier 2100",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name": "pa2100_text",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+                229,166
+            ],
+            "patch": [
+                136,197
+            ],
+            "mask": null
+        },
+        {
+            "id": 10601,
+            "three_d": "PA_53",
+            "ctr_pos_3D": [
+                371,
+                172
+            ],
+            "msg": "Place the Power Amplifier 2100",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Ml_PA",
+            "val_order_name": "pa2100_1",
+            "val_main": "vali_53",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 20,
+            "ctr_pos": [
+                370,164
+            ],
+            "patch": [
+                 134,47
+            ],
+            "mask": null
+        },
+        {
+            "id": 10602,
+            "three_d": "PA_53",
+            "ctr_pos_3D": [
+                178,
+                172
+            ],
+            "msg": "Place the Power Amplifier 2100",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Ml_PA",
+            "val_order_name": "pa2100_2",
+            "val_main": "vali_53",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 20,
+            "ctr_pos": [
+                180,164
+            ],
+            "patch": [
+                134,47
+            ],
+            "mask": null
+        },
+        {
+            "id": 7,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -195,
+                50
+            ],
+            "msg": "Assemble the Power Amplifier 1800",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name": "pa1800_text",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+               229,166
+            ],
+            "patch": [
+                136,197
+            ],
+            "mask": null
+        },
+        {
+            "id": 10701,
+            "three_d": "PA_54",
+            "ctr_pos_3D": [
+                277,
+                175
+            ],
+            "msg": "Place the Power Amplifier 1800",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Ml_PA",
+            "val_order_name": "pa1800_1",
+            "val_main": "vali_54",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 20,
+            "ctr_pos": [
+                275,164
+            ],
+            "patch": [
+                134,47
+            ],
+            "mask": null
+        },
+        {
+            "id": 10702,
+            "three_d": "PA_54",
+            "ctr_pos_3D": [
+                86,
+                175
+            ],
+            "msg": "Place the Power Amplifier 1800",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Ml_PA",
+            "val_order_name": "pa1800_2",
+            "val_main": "vali_54",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 20,
+            "ctr_pos": [
+               86,164
+            ],
+            "patch": [
+                134,47
+            ],
+            "mask": null
+        },
+        {
+            "id": 10703,
+            "three_d": null,
+            "msg": "Scan each power amplifier individually.",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_PA",
+            "val_order_name": "scan_pa",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 50,
+            "ctr_pos": [
+                229,280
+            ],
+            "patch": [
+               24,188
+            ],
+            "ctr_pos_3D": [
+                50,
+                50
+            ],
+            "mask": null
+        },
+        {
+            "id": 8,
+            "three_d": "TC",
+            "ctr_pos_3D": [
+               229,
+                165
+            ],
+            "msg": "Place the Top Cover",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "MlStage1",
+            "val_order_name": "tc",
+            "val_main": "run",
+            "val_result": "tc",
+            "val_thr": 1000,
+            "val_dur": 10,
+            "ctr_pos": [
+                229,
+                166
+            ],
+            "patch": [
+                136,197
+            ],
+            "mask": null
+        },
+        {
+            "id": 9,
+            "three_d": "Screw",
+            "ctr_pos_3D": [
+                -195,
+                -120
+            ],
+            "msg": "Place the Top 24 screws",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Screw_Main",
+            "val_order_name": "place_tc_screws",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 20,
+            "ctr_pos": [
+               226,
+               159
+           ],
+           "patch": [
+               148,207
+           ],
+            "mask": null
+        },
+        {
+            "id": 10,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -240,
+                -25
+            ],
+            "msg": "Tighten top Cover Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"tighten_tc_screws",
+            "val_main": "main",
+            "val_result": "tc2",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+               226,
+               159
+           ],
+           "patch": [
+               148,207
+           ],
+            "mask": null
+        },
+        {
+            "id": 11001,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -240,
+                -25
+            ],
+            "msg": "Tighten the 1st Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs1",
+            "val_main": "main",
+            "val_result": "screw16",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11002,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -225,
+                -25
+            ],
+            "msg": "Tighten the 2nd Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs2",
+            "val_main": "main",
+            "val_result": "screw16",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11003,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -225,
+                5
+            ],
+            "msg": "Tighten the 3rd Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs3",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11004,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -235,
+                35
+            ],
+            "msg": "Tighten the 4th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs4",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11005,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -225,
+                115
+            ],
+            "msg": "Tighten the 5th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs5",
+            "val_main": "main",
+            "val_result": "screw12",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11006,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -245,
+                115
+            ],
+            "msg": "Tighten the 6th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs6",
+            "val_main": "main",
+            "val_result": "screw12",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11007,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -295,
+                115
+            ],
+            "msg": "Tighten the 7th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs7",
+            "val_main": "main",
+            "val_result": "screw12",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                143,
+                201
+            ],
+            "patch": [
+                11,
+                9
+            ],
+            "mask": null
+        },
+        {
+            "id": 11008,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -315,
+                115
+            ],
+            "msg": "Tighten the 8th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs8",
+            "val_main": "main",
+            "val_result": "screw12",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11009,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -305,
+                35
+            ],
+            "msg": "Tighten the 9th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs9",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11010,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -295,
+                5
+            ],
+            "msg": "Tighten the 10th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs10",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11011,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -290,
+                -25
+            ],
+            "msg": "Tighten the 11th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs11",
+            "val_main": "main",
+            "val_result": "screw16",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11012,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -305,
+                -25
+            ],
+            "msg": "Tighten the 12th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs12",
+            "val_main": "main",
+            "val_result": "screw16",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11013,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -175,
+                -25
+            ],
+            "msg": "Tighten the 13th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs13",
+            "val_main": "main",
+            "val_result": "screw16",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11014,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -160,
+                -25
+            ],
+            "msg": "Tighten the 14th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs14",
+            "val_main": "main",
+            "val_result": "screw16",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11015,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -150,
+                5
+            ],
+            "msg": "Tighten the 15th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs15",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11016,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -165,
+                35
+            ],
+            "msg": "Tighten the 16th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs16",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11017,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -175,
+                115
+            ],
+            "msg": "Tighten the 17th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs17",
+            "val_main": "main",
+            "val_result": "screw12",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11018,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -155,
+                115
+            ],
+            "msg": "Tighten the 18th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs18",
+            "val_main": "main",
+            "val_result": "screw12",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11019,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -365,
+                115
+            ],
+            "msg": "Tighten the 19th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs19",
+            "val_main": "main",
+            "val_result": "screw12",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11020,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -365,
+                5
+            ],
+            "msg": "Tighten the 20th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs20",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11021,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -360,
+                -25
+            ],
+            "msg": "Tighten the 21st Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs21",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11022,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -105,
+                -25
+            ],
+            "msg": "Tighten the 22nd Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs22",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11023,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -95,
+                35
+            ],
+            "msg": "Tighten the 23rd Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs23",
+            "val_main": "main",
+            "val_result": "screw20",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        },
+        {
+            "id": 11024,
+            "three_d": null,
+            "ctr_pos_3D": [
+                -105,
+                115
+            ],
+            "msg": "Tighten the 24th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"tcs24",
+            "val_main": "main",
+            "val_result": "screw12",
+            "val_thr": 1500,
+            "val_dur": 10,
+            "ctr_pos": [
+                225,
+                166
+            ],
+            "patch": [
+                143,
+                201
+            ],
+            "mask": null
+        }  
+    ]
+}

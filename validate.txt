@@ -1,0 +1,3 @@
+both circles found
+square found
+feature is true

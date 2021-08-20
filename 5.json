@@ -1,0 +1,249 @@
+{
+    "version": "V2.0.14",
+    "client_id": "1",
+    "station_msg": " Station 1 Complete ",
+    "station_msg_pos": [
+        400,
+        100
+    ],
+    "3d_model": [
+        {
+            "name": "Chassis_1",
+            "init_size": {
+                "x": 0,
+                "y": 1,
+                "z": 19,
+                "sx": 0.4,
+                "sy": 0.4,
+                "sz": 0.4,
+                "rx": -90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "PA_53",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.10,
+                "sy": 0.10,
+                "sz": 0.10,
+                "rx": -90,
+                "ry": 90,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "PA_54",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.10,
+                "sy": 0.10,
+                "sz": 0.10,
+                "rx": -90,
+                "ry": 90,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        }
+    ],
+    "steps": [
+        {
+            "id": 1,
+            "three_d": "PA_53",
+            "ctr_pos_3D": [
+                -125,
+                50
+            ],
+            "msg": "Assemble the Power Amplifier 2100",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name": "pa2100_text",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 10,
+            "val_dur": 10,
+            "ctr_pos": [
+                224,633
+            ],
+            "patch": [
+                139,193
+            ],
+            "mask": null
+        },
+        {
+            "id": 50101,
+            "three_d": "PA_53",
+            "ctr_pos_3D": [
+                371,
+                172
+            ],
+            "msg": "Place the Power Amplifier 2100",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Ml_PA",
+            "val_order_name": "pa2100_1",
+            "val_main": "vali_53rotate",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 20,
+            "ctr_pos": [
+                92,614
+            ],
+            "patch": [
+                 134,47
+            ],
+            "mask": null
+        },
+        {
+            "id": 50102,
+            "three_d": "PA_53",
+            "ctr_pos_3D": [
+                178,
+                172
+            ],
+            "msg": "Place the Power Amplifier 2100",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Ml_PA",
+            "val_order_name": "pa2100_2",
+            "val_main": "vali_53rotate",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 20,
+            "ctr_pos": [
+                274,614
+            ],
+            "patch": [
+                134,47
+            ],
+            "mask": null
+        },
+        {
+            "id": 2,
+            "three_d": "PA_54",
+            "ctr_pos_3D": [
+                -195,
+                50
+            ],
+            "msg": "Assemble the Power Amplifier 1800",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name": "pa1800_text",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 10,
+            "ctr_pos": [
+               224,633
+            ],
+            "patch": [
+                139,193
+            ],
+            "mask": null
+        },
+        {
+            "id": 50201,
+            "three_d": "PA_54",
+            "ctr_pos_3D": [
+                277,
+                175
+            ],
+            "msg": "Place the Power Amplifier 1800",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Ml_PA",
+            "val_order_name": "pa1800_1",
+            "val_main": "vali_54rotate",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 20,
+            "ctr_pos": [
+                184,614
+            ],
+            "patch": [
+                134,47
+            ],
+            "mask": null
+        },
+        {
+            "id": 50202,
+            "three_d": "PA_54",
+            "ctr_pos_3D": [
+                86,
+                175
+            ],
+            "msg": "Place the Power Amplifier 1800",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Ml_PA",
+            "val_order_name": "pa1800_2",
+            "val_main": "vali_54rotate",
+            "val_result": true,
+            "val_thr": 1000,
+            "val_dur": 20,
+            "ctr_pos": [
+               367,614
+            ],
+            "patch": [
+                134,47
+            ],
+            "mask": null
+        },
+        {
+            "id": 50203,
+            "three_d": null,
+            "msg": "Scan each power amplifier individually.",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_PA",
+            "val_order_name": "scan_pa",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr": 0,
+            "val_dur": 50,
+            "ctr_pos": [
+                224,524
+            ],
+            "patch": [
+               28,195
+            ],
+            "ctr_pos_3D": [
+                50,
+                50
+            ],
+            "mask": null
+        }
+    ]
+}

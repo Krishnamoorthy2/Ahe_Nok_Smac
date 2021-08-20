@@ -1,0 +1,1345 @@
+{
+    "version": "V2.0.14",
+    "client_id": "1",
+    "station_msg": " Station 3 Complete ",
+    "station_msg_pos": [
+        400,
+        100
+    ],
+    "3d_model": [
+        {
+            "name": "Chassis_3",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.4,
+                "sy": 0.4,
+                "sz": 0.4,
+                "rx": -90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "TRX_Assembly",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.25,
+                "sy": 0.25,
+                "sz": 0.25,
+                "rx": 90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "Screw",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.14,
+                "sy": 0.14,
+                "sz": 0.14,
+                "rx": -90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "TRX_Template",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.25,
+                "sy": 0.25,
+                "sz": 0.25,
+                "rx": 90,
+                "ry": 180,
+                "rz": 90
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "ShieldCover",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.4,
+                "sy": 0.4,
+                "sz": 0.4,
+                "rx": -90,
+                "ry": 90,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "Adapter",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.05,
+                "sy": 0.05,
+                "sz": 0.05,
+                "rx": 180,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "Shield",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.17,
+                "sy": 0.17,
+                "sz": 0.17,
+                "rx": 90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        },
+        {
+            "name": "FilterRiser",
+            "init_size": {
+                "x": 0,
+                "y": 0,
+                "z": 19,
+                "sx": 0.17,
+                "sy": 0.17,
+                "sz": 0.17,
+                "rx": 90,
+                "ry": 0,
+                "rz": 0
+            },
+            "shader": "uv_flat",
+            "anmination": null,
+            "base": true,
+            "bump": false
+        }
+    ],
+    "steps": [
+        {
+            "id":30101,
+            "three_d": "TRX_Assembly",
+            "ctr_pos_3D": [
+                50,600
+            ],
+            "msg": "Place the TRX_Assembly",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Trx_Assembly",
+            "val_order_name":"TRX_assembly",
+            "val_main": "run",
+            "val_result": "trxassembly",
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+               227,508
+            ],
+            "patch": [
+               257,207
+            ],
+            "mask": null
+        },        
+        {
+            "id":30102,
+            "three_d": null,
+            "ctr_pos_3D": [
+                229,
+                259
+            ],
+            "msg": "Scan the TRX Assembly",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name":"TRX_scan",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                374,715
+            ],
+            "patch": [
+                49,66
+            ],
+            "mask": null
+        },
+        {
+            "id":2,
+            "three_d": "Screw",
+            "ctr_pos_3D": [
+                380,
+                800
+            ],
+            "msg": "Place and tighten the DC Top Screws (6159988)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "DC_Screw",
+            "val_order_name":"Place DC_Top",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                387,737
+            ],
+            "patch": [
+                23,33
+            ],
+            "mask": null
+        },
+        {
+            "id":3,
+            "three_d": null,
+            "ctr_pos_3D": [
+                229,
+                259
+            ],
+            "msg": "Assemble the TRX Screws (6159988) ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"Assemble TRX_screw",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":30301,
+            "three_d": "TRX_Template",
+            "ctr_pos_3D": [
+                50,
+                504
+            ],
+            "msg": "Place the TRX Screw Template (P352212)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TRX_ML",
+            "val_order_name":"Screw Template",
+            "val_main": "run",
+            "val_result": "trxtemplate",
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":30302,
+            "three_d": null,
+            "ctr_pos_3D": [
+                227,
+                394
+            ],
+            "msg": "Place all 19 TRX Screws",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"TRX_screw",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":4,
+            "three_d": null,
+            "ctr_pos_3D": [
+                229,
+                259
+            ],
+            "msg": "Tighten the TRX Screws (6159988) ",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"tighten TRX_screw",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":30401,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 1st Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw1",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30402,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 2nd Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw2",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30403,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 3rd Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw3",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30404,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 4th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw4",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30405,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 5th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw5",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30406,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 6th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw6",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30407,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 7th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw7",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30408,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 8th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw8",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30409,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 9th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw9",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30410,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 10th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw10",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30411,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 11th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw11",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30412,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 12th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw12",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30413,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 13th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw13",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30414,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 14th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw14",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30415,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 15th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw15",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30416,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 16th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw16",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30417,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 17th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw17",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30418,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 18th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw18",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":30419,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Tighten the 19th Screw",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"TRX_screw19",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+                
+            ],
+            "mask": null
+        },
+        {
+            "id":5,
+            "three_d": "TRX_Template",
+            "ctr_pos_3D": [
+                50,
+                504
+            ],
+            "msg": "Remove the TRX Screw Template (P352212)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TRX_ML",
+            "val_order_name":"Template",
+            "val_main": "run",
+            "val_result": "nonetrxtemplate",
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":6,
+            "three_d": "ShieldCover",
+            "ctr_pos_3D": [
+                375,
+                800
+            ],
+            "msg": "Place the Shield Cover (826646)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "ShieldCover_ML",
+            "val_order_name":"SC",
+            "val_main": "run",
+            "val_result": "shieldcover",
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                387,737
+            ],
+            "patch": [
+                23,33
+            ],
+            "mask": null
+        },
+        {
+            "id":7,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Assemble the Adapter (P130910) using P-SMP Installation Tool",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"adapter",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                227,394
+            ],
+            "patch": [
+                394,227
+            ],
+            "mask": null
+        },
+        {
+            "id":30701,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                100,
+                284
+            ],
+            "msg": "Place the 1st Adapter",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"adapter1",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                100,284
+            ],
+            "patch": [
+                15,12
+            ],
+            "mask": null
+        },
+        {
+            "id":30702,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                197,
+                284
+            ],
+            "msg": "Place the 2nd Adapter",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"adapter2",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                197,284
+            ],
+            "patch": [
+                15,12
+            ],
+            "mask": null
+        },
+        {
+            "id":30703,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                294,
+                284
+            ],
+            "msg": "Place the 3rd Adapter",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"adapter3",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                294,284
+            ],
+            "patch": [
+                11,10
+            ],
+            "mask": null
+        },
+        {
+            "id":30704,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                391,
+                284
+            ],
+            "msg": "Place the 4th Adapter",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"adapter4",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                391,284
+            ],
+            "patch": [
+                15,12
+            ],
+            "mask": null
+        },
+        {
+            "id":30705,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                332,
+                468
+            ],
+            "msg": "Place the 5th Adapter",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"adapter5",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                332,468
+            ],
+            "patch": [
+                11,10
+            ],
+            "mask": null
+        },
+        {
+            "id":30706,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                268,
+                468
+            ],
+            "msg": "Place the 6th Adapter",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"adapter6",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                268,468
+            ],
+            "patch": [
+                11,10
+            ],
+            "mask": null
+        },
+        {
+            "id":30707,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                193,
+                468
+            ],
+            "msg": "Place the 7th Adapter",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"adapter7",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                193,468
+            ],
+            "patch": [
+                11,10
+            ],
+            "mask": null
+        },
+        {
+            "id":30708,
+            "three_d": "Adapter",
+            "ctr_pos_3D": [
+                130,
+                468
+            ],
+            "msg": "Place the 8th Adapter",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text",
+            "val_order_name":"adapter8",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                130,468
+            ],
+            "patch": [
+                11,10
+            ],
+            "mask": null
+        },{
+            "id":8,
+            "three_d": null,
+            "ctr_pos_3D": [
+                160,
+                198
+            ],
+            "msg": "Assemble the Riser Card (986255)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"RC",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                45,672
+            ],
+            "patch": [
+                53,20
+            ],
+            "mask": null
+        }, 
+        {
+            "id":30801,
+            "three_d": "FilterRiser",
+            "ctr_pos_3D": [
+                70,
+                700
+            ],
+            "msg": "Place the 1st Riser Card",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "3DText",
+            "val_order_name":"RC1",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                45,672
+            ],
+            "patch": [
+                53,20
+            ],
+            "mask": null
+        },
+        {
+            "id":30802,
+            "three_d": "FilterRiser",
+            "ctr_pos_3D": [
+                70,
+                725
+            ],
+            "msg": "Place the 2nd Riser Card",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "3DText",
+            "val_order_name":"RC2",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                45,672
+            ],
+            "patch": [
+                53,20
+            ],
+            "mask": null
+        },
+        {
+            "id":30803,
+            "three_d": "FilterRiser",
+            "ctr_pos_3D": [
+                70,
+                750
+            ],
+            "msg": "Place the 3rd Riser Card",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "3DText",
+            "val_order_name":"RC3",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                45,672
+            ],
+            "patch": [
+                53,20
+            ],
+            "mask": null
+        },
+        {
+            "id":30804,
+            "three_d": "FilterRiser",
+            "ctr_pos_3D": [
+                70,
+                775
+            ],
+            "msg": "Place the 4th Riser Card",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "3DText",
+            "val_order_name":"RC4",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                45,672
+            ],
+            "patch": [
+                53,20
+            ],
+            "mask": null
+        },
+        {
+            "id":9,
+            "three_d": "Shield",
+            "ctr_pos_3D": [
+                15,
+                672
+            ],
+            "msg": "Place the Shield (831843)",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Shield_ML",
+            "val_order_name":"Shield1",
+            "val_main": "run",
+            "val_result": "after shield",
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                45,672
+            ],
+            "patch": [
+                53,20
+            ],
+            "mask": null
+        }, 
+        {
+            "id":10,
+            "three_d": null,
+            "ctr_pos_3D": [
+                165,
+                721
+            ],
+            "msg": "RET_TRX Interconnection",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "TextA",
+            "val_order_name":"RET",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                165,721
+            ],
+            "patch": [
+                52,40
+            ],
+            "mask": null
+        },
+        {
+            "id":31001,
+            "three_d": null,
+            "ctr_pos_3D": [
+                165,
+                721
+            ],
+            "msg": "Connect the RET connector to TRX Assembly",
+            "msg_pos": [
+                20,
+                900
+            ],
+            "val_name": "Text_connectors",
+            "val_order_name":"RET",
+            "val_main": "main",
+            "val_result": true,
+            "val_thr":500,
+            "val_dur": 15,
+            "ctr_pos": [
+                165,721
+            ],
+            "patch": [
+                52,40
+            ],
+            "mask": null
+        }
+    ]
+}
